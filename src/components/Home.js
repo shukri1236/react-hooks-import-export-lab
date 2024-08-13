@@ -1,11 +1,10 @@
 import React from "react";
 
-function Home() {
+function NavBar() {
   return (
-    <div id="home">
-      <h1>
-        {username} is a Web Developer from {city}
-      </h1>
-    </div>
+    <nav>
+      <a href="#home">I'm a link!</a>
+    </nav>
   );
 }
+export default NavBar;

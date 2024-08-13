@@ -1,13 +1,14 @@
 import React from "react";
+import { username } from "../data/user";
+import { city } from "../data/user";
 
-function App() {
+function Home() {
   return (
-    <div>
-      <NavBar />
-      <Home />
-      <About />
+    <div id="home">
+      <h1>
+        {username} is a Web Developer from {city}
+      </h1>
     </div>
   );
 }
-
-export default App;
+export default Home;
